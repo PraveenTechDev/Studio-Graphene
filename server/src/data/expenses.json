@@ -1,0 +1,16 @@
+[
+  {
+    "id": "exp_seed_1",
+    "amount": 250,
+    "category": "Food",
+    "date": "2026-06-02",
+    "note": "Lunch"
+  },
+  {
+    "id": "exp_seed_2",
+    "amount": 800,
+    "category": "Bills",
+    "date": "2026-06-01",
+    "note": "Utilities"
+  }
+]
