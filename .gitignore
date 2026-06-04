@@ -1,0 +1,9 @@
+node_modules
+.next
+coverage
+dist
+.DS_Store
+.env
+client/node_modules
+server/node_modules
+server/src/data/*.runtime.json
