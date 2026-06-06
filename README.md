@@ -4,7 +4,8 @@ FlowSpend is a full-stack submission for Studio Graphene's Exercise 2: Mini Expe
 
 ## Live Demo Links
 
-Not deployed in this local submission.
+- **Frontend:** [https://studio-graphene-1.onrender.com](https://studio-graphene-1.onrender.com)
+- **Backend API Base:** [https://studio-graphene-g3fm.onrender.com/api](https://studio-graphene-g3fm.onrender.com/api)
 
 ## Tech Stack
 
@@ -226,7 +227,6 @@ Response:
 - Add debounced budget updates instead of firing on every input change.
 - Improve summary handling for custom date ranges so the summary can aggregate across multiple months instead of anchoring to the start month.
 - Add a dedicated toast system and stronger field-level backend error mapping in the UI.
-- Deploy the frontend and backend and wire environment-specific API URLs.
 
 ## What Works
 
@@ -238,6 +238,6 @@ Response:
 
 ## What Does Not
 
-- No hosted deployment is included yet.
+
 - The summary endpoint is month-based, so a custom date range spanning multiple months does not produce a true cross-range summary.
 - Budget updates are immediate rather than save-button based, which is functional but not ideal UX.
