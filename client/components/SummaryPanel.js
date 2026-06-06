@@ -129,24 +129,6 @@ export default function SummaryPanel({ summary, budgets, onBudgetChange, savingB
                   <input
                     className="w-full rounded-md border border-zinc-200 bg-white px-3 py-1.5 text-sm text-zinc-900 outline-none transition focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                     min="0"
-                    onChange={(event) => handleLocalBudgetChange(item.category, event.target.value)}
-                    type="number"
-                    value={localBudgets[item.category] ?? ""}
-                  />
-                  <div className="min-w-24 text-right text-xs font-medium text-zinc-600">
-                    {savingBudget === item.category ? "Saving..." : formatCurrency(item.budget)}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-          className="w-full rounded-md border border-zinc-200 bg-white px-3 py-1.5 text-sm text-zinc-900 outline-none transition focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
-                    min="0"
                     onChange={(event) => onBudgetChange(item.category, event.target.value)}
                     type="number"
                     value={budgets[item.category] ?? ""}

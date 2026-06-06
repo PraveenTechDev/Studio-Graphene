@@ -42,6 +42,7 @@ export default function Home() {
   const [pendingDeleteId, setPendingDeleteId] = useState("");
   const [savingBudget, setSavingBudget] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [serverErrors, setServerErrors] = useState({});
 
   const summaryMonth = useMemo(() => {
     if (filters.preset === "last-month") {
